@@ -1,0 +1,135 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(180deg, #F2EDEB 0%, #E8E3E1 43%, #E8CBA4 100%);
+
+}
+#contenedor {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    height: 10vh;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo{
+    flex-basis: 50%;
+    max-height: 100%;
+    color: #744728;
+    padding-left: 20px;
+}
+
+.funciones{
+    flex-basis: 45%;
+    max-height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.funciones button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #BA8563;
+    cursor: pointer;
+}
+
+.funciones img{
+    max-width: 10%;
+    border-radius: 100%;
+}
+
+header{
+    height: 35vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: top;
+    font-size: 20px;
+    color: #4E443C;
+    width: 100%;
+}
+
+.botonmenu{
+    flex-basis: 5%;
+}
+.botonmenu button{
+    max-width: 50px;
+    margin-left: 10px;
+    background-color: #E8CBA4;
+    border: none;
+    cursor: pointer;
+}
+.botonmenu img{
+    width: 80%;
+}
+
+.menu{
+    flex-basis: 35%;
+    display: flex;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    border: 1px solid #744728;
+    padding: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #744728;
+}
+
+.imagenlogo{
+    flex-basis: 60%;
+    display: flex;
+    justify-content:end;
+}
+
+.imagenlogo img{
+    border-radius: 100%;
+    width: 25%;
+    height: 90%;
+    padding-right: 10px;
+}
+
+main {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#cajadeImagenes{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#cajadeImagenes img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 15px solid #744728;
+    margin: 5px;
+}
+

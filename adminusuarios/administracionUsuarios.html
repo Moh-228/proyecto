@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administracion de Usuarios | EL BANQUITO</title>
+    <link rel="stylesheet" href="./estilosadminusuarios.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <nav>
+            <div class="botonmenu">
+                <button onclick="location.href='../menus/menuAdmin.html'"><img src="../img/menu.png"></button>
+            </div>
+            <div class="titulo">
+                <h2>El Banquito</h2>
+            </div>
+            <div class="funciones">
+                <button onclick="location.href='../registrousuario/login.html'"><img src="../img/exit.png">Cerrar Sesion</button>
+                <img src="../img/usuario.png">
+            </div>
+        </nav>
+        <header>
+            <h2>Lista de Usuarios</h2>
+            <img src="../img/logo.jpeg">
+        </header>
+        <main>
+            <div id="cajaTabla">
+
+                <button id="agregarusuario">Agregar Usuario</button>
+
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Teléfono</th>
+                            <th>Rol</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>user</td>
+                            <td>admin@gmail.com</td>
+                            <td>555555667</td>
+                            <td><button class="accion"><img src="../img/lapiz.png" alt="Editar"></button></td>
+                            <td>
+                                <button class="accion"><img src="../img/lapiz.png" alt="Editar"></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="tablafooter">
+                    <span>1 resultado</span>
+                    <div class="paginacion">
+                        <button class="anterior">Anterior</button>
+                        <span class="pagina-activa">1</span>
+                        <button class="siguiente">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
